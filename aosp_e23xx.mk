@@ -15,6 +15,8 @@
 
 TARGET_KERNEL_CONFIG := aosp_kanuti_tulip_defconfig
 
+TARGET_INIT_VENDOR_LIB := libinit_tulip
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/sony/tulip/device.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
